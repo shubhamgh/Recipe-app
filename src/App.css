@@ -1,0 +1,48 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.profile-small {
+  height:150px;
+  border-radius: 50%;
+  border: 7px solid #bda406;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #f9f7f7;
+  background-image: url('https://images.pexels.com/photos/326279/pexels-photo-326279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  margin:30px;
+  font-size:20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: wheat;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button{
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
